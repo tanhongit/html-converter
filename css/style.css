@@ -1,0 +1,37 @@
+.me {
+    text-align: center;
+    display: inline-block;
+    margin: 2em auto;
+    width: 100%;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.me a {
+    position: relative;
+    top: -30px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.me img {
+    margin: 0 10px;
+    border-radius: 100%;
+}
+
+.me svg {
+    height: 30px;
+    width: 30px;
+    top: -30px;
+}
+
+@media only screen and (max-device-width: 450px) {
+    .me {
+        text-align: center;
+    }
+}
+
+.container .row {
+    text-align: center;
+    padding-bottom: 3%;
+}
